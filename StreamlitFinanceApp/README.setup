@@ -1,0 +1,1 @@
+This workspace uses a Python venv at .venv to isolate packages from system Python. Top-level requirements are pinned, but transitive deps are not locked. To generate a full lock, run pip freeze or pip-tools inside the venv.
